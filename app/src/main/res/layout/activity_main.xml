@@ -4,10 +4,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_extract_frame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
-
+        android:text="提取视频图片" />
+    <Button
+        android:id="@+id/btn_show_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示图片"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        />
 </LinearLayout> 
